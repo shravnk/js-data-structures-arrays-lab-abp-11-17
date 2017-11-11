@@ -26,5 +26,5 @@ function appendDriver() {
 }
 
 function removeLastDriver() {
-  return drivers.splice(1,2)
+  return drivers.slice(0,2)
 }

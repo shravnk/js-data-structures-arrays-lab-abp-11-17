@@ -24,3 +24,7 @@ function prependDriver() {
 function appendDriver() {
   return [... drivers, "Broom"]
 }
+
+function removeLastDriver() {
+  return driver.splice(0,1)
+}

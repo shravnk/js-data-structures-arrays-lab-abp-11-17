@@ -18,6 +18,5 @@ function destructivelyRemoveFirstDriver() {
 }
 
 function prependDriver() {
-  return ["Arnold, ... drivers"]
+  return ["Arnold", ... drivers]
 }
-

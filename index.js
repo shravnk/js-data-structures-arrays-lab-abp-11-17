@@ -16,3 +16,8 @@ function destructivelyRemoveLastDriver() {
 function destructivelyRemoveFirstDriver() {
   drivers.shift()
 }
+
+function prependDriver() {
+  return ["Arnold, ... drivers"]
+}
+
